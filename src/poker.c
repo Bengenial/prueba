@@ -11,7 +11,6 @@
 #define NOGDI            // Evita la inclusión de funciones GDI, como la función Rectangle de Windows
 #define NOUSER           // Evita la inclusión de funciones de usuario, como CloseWindow y ShowCursor de Windows
 #include <windows.h>
-#include "raylib.h"
 
 
 //Del poker
@@ -73,7 +72,7 @@ int main(){
 
 		switch (opcion){
 		case '1':
-			//iniciarVentana();
+			iniciarVentana();
 			iniciarPartida(IArand);
 			
 			break;
